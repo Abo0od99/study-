@@ -1,0 +1,964 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap');
+
+
+*{
+	padding:0 ;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+  font-family: 'Cairo', sans-serif;
+ overflow-x:hidden;
+ 
+}
+section .container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+	
+}
+
+header .container{
+	border:10px;
+	    padding: 0 100px;
+		border-bottom:1px solid #d8d8d8;
+		display:flex;
+		justify-content: space-between;
+}
+header .logo{
+	padding:20px 0;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    display: block;
+    float: right;
+	height:100%;
+}
+
+
+
+header ul li a {
+    border-right: 1px solid #d8d8d8;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #585858;
+	display: block;
+	display: flex;
+    align-items: center;
+	height:100%;
+	    cursor: pointer;
+}
+.hero{
+    background: url(../img/Rectangle.png) no-repeat left;
+	display: inline-block;
+    background-position: -200%;
+    width: 100%;
+    background-size: 84% 100%;
+}
+.hero .dv2 {
+
+	float: left;
+	padding:170px 0;
+    font-family: 'Cairo', sans-serif;
+   	width:50%;
+}
+ .hero .dv2 h2 ,  .hero .dv2 p {
+	 color:#fff;
+	 margin-bottom:15px;
+ }
+ .hero .dv2 a{
+    border-radius: 24px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 30px;
+    display: block;
+    width: max-content;
+    background: #324760;
+	
+}
+.hero .dv3{
+
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-top: 170px;
+    padding-left: 20px;
+}
+.hero .dv3 img{
+	width:100%;
+}
+
+.hero2{
+	padding: 40px 0;
+		
+	
+}
+.hero2 ul{
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+	list-style-type:none;
+	
+}
+.hero2 li{
+	text-align:center;
+	float: left;
+	width:200px;
+	height:200px;
+	list-style-type:none;
+	transition:0.5s;
+}
+.hero2 li img{
+	transition:0.5s;
+}
+.hero2 li:hover img{
+	opacity: 0.5;
+}
+.hero3 {
+	padding: 40px 0;
+	background:#eff2f6  ;
+	display:inline-block;
+	
+	
+}
+.hero3 .dv5{
+	float:right;
+	width:50%;
+}
+.hero3 .dv4 a{
+	margin:25px 0;
+    border-radius: 24px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 30px;
+    display: block;
+    width: max-content;
+    background: #324760;
+
+}
+.hero3 .dv4{
+	float:left;
+	width:50%;
+}
+.hero3 Container{
+	display:inline-block;
+	width:100%;
+}
+.hero3 .dv5 img {
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.hero3 .dv4 {
+    float: left;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero3 .dv4 h2 {
+    margin-bottom: 20px;
+}
+
+.hero4 {
+	text-align:center;
+	
+}
+hr{
+	margin:55px;
+	
+}
+.hero4 .dv6 h1{
+	margin-top: 30px;
+	
+}
+.hero5 li{
+	text-align:center;
+	list-style-type:none;
+	display:flex;
+	align-items:center;
+	
+}
+.dv12 ul {
+	margin-top:100px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+	
+background-color: #324760;
+padding-top:90px;
+padding-bottom:30px;
+
+}
+
+.dv13 {
+    display: inline-block;
+    width: 100%;
+}
+.dv13 ul {
+    float: left;
+    width: 33%;
+	
+}
+
+
+.hero6 li {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.hero6 .dv13 ul a ,.dv15 ul a{
+
+	text-decoration: none;
+	color: #ffffff;
+display:block;
+
+	
+	
+}
+.dv15{
+	display:flex;
+	justify-content:space-between;
+	    margin-top: 60px;
+	
+}
+.dv15 a {
+    color: #fff;
+    text-decoration: none;
+}
+.dv15 ul{
+	display: flex;
+	
+}
+.dv15 ul a{
+	margin-right:10px;
+	
+}
+.hero6 li {
+	text-align:center;
+	list-style-type:none;
+	display:flex;
+	align-items:center;
+	
+}
+.hero6 p {
+	color:#fff;
+
+}
+.hero6 .dv14 ul {
+ display: inline;
+    float: right;
+	
+}
+.dv14{
+    width: 20%;
+    float: right;
+
+}
+.hero6 .list {
+	float:left;
+	width:80%;
+	
+}
+.hero6 .dv14 a {
+    border-radius: 24px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 30px;
+    display: block;
+    background: #366bab;
+	float:right;
+}
+.hero6 .dv14 a:hover ,.hero3 .dv4 a:hover ,.hero .dv2 a:hover{
+	
+	  background-color:#2f3542;
+	  transition: 0.5s;
+}
+
+.hero6 .list a:hover ,.hero6 .dv15 a:hover{
+	
+	color:#1e90ff;
+	  transition: 0.5s;
+	
+}
+
+
+
+/*============= Login page===================*/
+section.led {
+    position: relative;
+    height: 240px;
+}
+.led .dv2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.led .dv2 img {
+    width: 106%;
+    height: 100%;
+    margin-left: -6%;
+	
+}
+.led .dv1 {
+position: relative;
+    z-index: 1;
+    color: #fff;
+
+	float: left;
+	padding:70px 0px 100px 0px ;
+    font-family: 'Cairo', sans-serif;
+	width:50%;
+	}
+
+section .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.led2 .dv3 {
+    width: 519px;
+    border-radius: 43px;
+    filter: drop-shadow(0 0 6.5px rgba(86,86,86,0.09));
+    background-color: #ffffff;
+    display: block;
+margin: 60px auto;\
+}
+
+.led2 .dv4 {
+    text-align: center;
+}
+.led2 .dv4 h2 {
+    text-align: center;
+    background: #086cab;
+    border-radius: 24px 24px 0px 0px;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+}
+.led2 .dv5 {
+    width: 100%;
+    padding: 120px 50px;    
+	padding-top: 40px;
+}
+.led2 input {
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 15px;
+}
+.led2 input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+.dv5 form a {
+    width: max-content;
+   
+}
+.led2 input {
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 15px;
+}
+.led2 form .ac1{
+	 margin-top: 28px;
+    background-color:#22abae;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+	color:#fff;
+	text-align:center ;
+	display:block;
+}
+	.led2 .dv5 img {
+    display: block;
+    margin: auto;
+}
+.led2 input[type="Submit"]{
+    background-color:#086cab;
+	color:#fff;
+	    margin-top: 30px;
+cursor:pointer;
+}
+
+/*============= login page===================*/
+
+
+
+/*============= Contact Us page===================*/
+.cu .dv1 {
+	margin:50px 0  ;
+	display:inline-block;
+	width:100%;
+}
+.cu .dv2 {
+    float: left;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cu .dv3 {
+    float: right;
+    width: 55%;
+	 border-radius: 43px;
+    box-shadow:0 0 6.5px rgba(86,86,86,0.09);
+	padding:15px;
+	
+	
+}
+.cu ul li a{
+	font-size: 13px;
+color: #656565;
+text-decoration:none;
+}
+.cu ul li{
+	
+    display: flex;
+    align-items: center;
+
+}
+ .cu .dv2 i{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+	background: #f0f4fb   ;
+    margin-right: 10px;
+}
+
+
+
+.cu	input {
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 15px;
+	
+}
+.cu form {
+	    
+		   
+	 margin-top: 28px;
+    background-color:fff;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+	color:#fff;
+	text-align:center ;
+}
+	.cu .inputGroup {
+	display:inline-block;
+	width:100%;
+margin-top:auto;
+margin:-10px;
+}
+
+.cu .inputLeft {
+    float: left;
+    width: 48%;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cu .inputRight {
+  float:right;
+    width: 48%;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	}
+
+.cu	textarea{
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 15px;
+	margin-top:25px;
+}
+.cu #sub  {
+    margin: 25px 0;
+    border-radius: 24px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 30px;
+    display: block;
+    width: max-content;
+    background: #086cab;
+}
+.cu .dv2 h4{
+	color:  #086cab ;
+	
+	
+}
+.cu .dv2 i{
+		border-radius:8px;
+		font-size:24px;
+		margin:20px;
+		    margin-left:0px;
+	
+}
+/*============= Contact Us page===================*/
+
+/*============= about Us page===================*/
+
+.au .dv1 {
+    margin:50px 0;
+    display: inline-block;
+    width: 100%;
+	
+}
+.au .dv2 {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.au .dv3 {
+    float: right;
+    width: 50%;
+
+}
+}
+
+
+
+.au1 .dv1 {
+
+    display: inline-block;
+    width: 100%;
+	
+}
+.au1 .dv3 {
+    float: left;
+    width: 50%;
+    display: flex;
+ 
+    justify-content: center;
+}
+
+.au1 .dv2 {
+    float: right;
+    width: 50%;
+	  margin:60px -25px;
+
+}
+
+
+.auback2 .dv1 {
+
+    display: inline-block;
+    width: 100%;
+	
+}
+.auback2 .dv3 {
+    float: left;
+    width: 50%;
+    display: flex;
+	
+    justify-content: center;
+}
+
+.auback2 .dv2 {
+    float: right;
+    width: 50%;
+	  margin:60px -25px;
+
+}
+
+
+.about section img {
+    max-width: 100%;
+    height: auto;
+    width: fit-content;
+	    display: block;
+    margin: auto;
+}
+
+.about p{
+		color:#595959;	
+}
+.about h4
+{
+	color:#2a77e7;
+	margin-bottom:30px   ;
+	
+}
+
+
+section.au.spicial
+{
+	  background: url('../img/back22.jpeg') right no-repeat;
+	  background-size:cover;
+}
+
+
+.about .led .dv2 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+}
+section.auback2
+{
+	  background: url('../img/back11.jpeg') right no-repeat;
+	  background-size:cover;
+}
+
+.led .p12{
+	
+	color:#fff;
+	
+	
+}
+
+.about footer p{
+		color:#fff;	
+}
+
+
+
+
+/*============= about Us page===================*/
+
+/*============= sigin up  page===================*/
+
+.led2 select{
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 15px;
+}
+	
+.led2 textarea {
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+}
+.led2 .Subject22 {
+	
+	 background-color: #f6f6f6;
+    border: none;
+    border-radius: 24px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+	
+}
+
+.led2 .r1{
+    display:block;
+        width: 100%;
+	    text-align: center;
+    margin-top: 30px;
+}
+
+.led2 input[type="radio"]{
+	width:auto;
+	margin:0 5px;
+}
+
+.led2 .Subject22 {
+	height:210px;
+	overflow:auto;
+	
+	
+}
+
+
+
+
+
+ul.menuList {
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+    background: #fff;
+    display: grid;
+    right:-100%;
+    width: 154px;
+   transition:0.3s;
+   
+}
+ul.menuList.show{
+	
+	 right:0;
+	 
+}
+header {
+    position: relative;
+}
+/*============= sigin up  page===================*/
+
+
+/*============= CSS Media Queries page===================*/
+
+#burger {
+	display:none;
+	
+}
+@media screen and (max-width: 400px) {
+	header ul  {
+		display:none;
+		
+
+}
+ul#menuList,ul.menuList {
+    display: none;
+}
+.about .led .dv2 img{
+	margin:0;
+	    object-fit: fill;
+}
+.led .dv1{
+	padding:0;
+	
+}
+.about h4{
+	    margin: 30px 0;
+}
+section .container,header .container{
+	
+	padding:0 20PX;
+	
+}
+.about section img{
+	margin:20px auto;
+}
+.dv13 ul {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero6 .dv14 a{
+	float:none;
+	width:max-content;
+	
+}
+.dv15{
+	    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+}
+.dv15 ul {
+    display: flex;
+}
+
+.dv14,.hero6 .list,.auback2 .dv2,.auback2 .dv3,.au .dv2,.au .dv3{
+	float:none;
+	width:100%;
+	margin:0;
+}
+section.led {
+    position: relative;
+    display: flex;
+    align-items: center;
+height: 180px;
+}
+.led2 .dv3 {
+    width: 100%;
+}
+
+
+.led2 .dv5 {
+    width: 100%;
+    padding: 20px;
+    padding-top: 40px;
+}
+.cu .dv3 {
+	float:none;
+	width:100%
+}
+.cu .dv2{
+	float:none;
+	width:100%
+}
+.hero2 ul {
+    flex-direction: column;
+}z
+.hero2 li {
+	
+	float:none;
+	
+	
+}
+.hero4 .dv6 h1 {
+    margin-top: 159px;
+}
+section .container, header .container {
+    padding: 0 20px;
+}
+.hero{
+	    background-size: 85% 100%;
+}
+.hero .dv3,.hero .dv2{
+	
+	float:none;
+	width:100%
+}
+.hero3{
+    padding: 60px 0;
+    margin-top: 0;
+
+}
+.hero .dv3 a{
+	
+	margin-left:5px;
+	
+}
+.hero2{
+	
+padding: 40px 0;
+}
+.dv12 ul{
+	margin-top:50px;
+	padding:0;
+}
+.hero3 .dv4{
+	height:690px;
+}
+.hero4 .dv6 h1 {
+    margin-top: 0;
+}
+.hero2 {
+
+ padding: 30px 0;
+}
+.hero.dv2{
+	padding:55px 0;
+	
+}
+
+.hero{
+	    background: #366bab;
+		background-image:none;
+		
+}
+.hero .dv2{
+	padding-bottom:0;
+	    padding-top: 40px;
+
+}
+.hero .dv3{
+	    padding-top: 50px;
+}
+
+
+
+.hero3 .dv4 {
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.dv12 ul {
+    margin-top: 50px;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.hero3 .dv5  {
+  float: none;
+    width: 100%;
+    height: auto;	
+}
+
+header ul.mobile {
+    display: flex;
+    position: fixed;
+    top: 0;
+	left:-100%;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    z-index: 9;
+    flex-direction: column-reverse;
+    padding: 20px;
+    justify-content: flex-end;
+	transition:0.3s;
+	
+}
+header ul li {
+	
+	height:auto;
+	padding:0;
+	padding-bottom: 10px;
+	
+	
+}
+header ul li a{
+	
+		height:auto;
+	padding:0;
+	border:none;
+	
+	
+}
+
+#burger {
+	display:block;
+	    position: absolute;
+    top: 20px;
+    right: 15px;
+    border: none;
+    background: transparent;
+}
+#burger i{
+	font-size:30px;
+	
+	
+}
+header ul.mobile.active {
+left:0;
+
+
+
+
+
+}
+
+
+
+
+
+
+}
+/*============= CSS Media Queries page===================*/
